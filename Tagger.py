@@ -49,13 +49,17 @@ async def help(event):
 	
 @client.on(events.NewMessage(pattern="^/reklam$"))
 async def help(event):
-  helptext = "**Mükəmməl özəllikləri Olan  Tagger Botu Tapmağa Çalışanlar Üçün  @TornadoTaggerBot Sizə Görədir:\n\n⚡ 5-li tag\n⚡ Emoji ilə tag\n🔥 Təlli tag\n🔥 Sadəcə Adminləri Tag Etmək\n😝\n\n @TornadoTaggerBot 'u grubuvuza Admin olarağ əlavə edib rahadlığla istifadəçilərə , etiket ata bilərsiniz **"
-  await event.reply(helptext)
+  helptext = "** Reklam & business : @rowlyn  **"
+  await event.reply(helptext,
                     buttons=(
-                      [Button.url('Botu Gruba Əlavə Et➕', 'https://t.me/tornadotaggerbot?startgroup=a')],
+                        [
+                            Button.url('Botu Gruba Ekle➕', 'https://t.me/tornadotaggerbot?startgroup=a'),
+                        ],
                     ),
                     link_preview=False
-                   )
+                )
+	
+	
 	
 	
 
