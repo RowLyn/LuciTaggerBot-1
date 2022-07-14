@@ -289,4 +289,4 @@ async def mentionall(tagadmin):
 
 
 print(">> Bot çalışır narahat olma 🚀 @RowlynBots bilgi alabilərsən <<")
-client.run_until_disconnected(
+client.run_until_disconnected
