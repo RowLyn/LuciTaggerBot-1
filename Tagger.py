@@ -28,9 +28,9 @@ async def start(event):
                     buttons=(
                    
 		      [Button.url('Məni Gruba Əlavə Et ➕', 'https://t.me/blackbakutaggerbot?startgroup=a')],
-                      [Button.url('Support🔥', 'https://t.me/BakuCC')],
-                      [Button.url('Rəsmi Kanal🏆', 'https://t.me/RepoSatis')],
-		      [Button.url('Developer🐊', 'https://t.me/Rowlyn')],
+                      [Button.url('Support🔥', 'https://t.me/BakuBC')],
+                      [Button.url('Rəsmi Kanal🏆', 'https://t.me/BakuBC')],
+		      [Button.url('Developer🐊', 'https://t.me/jalegsynv')],
                     ),
                     link_preview=False
                    )
@@ -40,16 +40,16 @@ async def help(event):
   await event.reply(helptext,
                     buttons=(
                       [Button.url('Məni Gruba Əlavə Et➕', 'https://t.me/blackbakutagger?startgroup=a')],
-                      [Button.url('Support🫀', 'https://t.me/BakuCC')],
-                      [Button.url('Rəsmi Kanal💸', 'https://t.me/RepoSatis')],
-		      [Button.url('Developer✝️', 'https://t.me/Rowlyn')],
+                      [Button.url('Support🫀', 'https://t.me/BakuBC')],
+                      [Button.url('Rəsmi Kanal💸', 'https://t.me/BakuBC')],
+		      [Button.url('Developer✝️', 'https://t.me/jalegsynv')],
                     ),
                     link_preview=False
                    )
 	
 @client.on(events.NewMessage(pattern="^/reklam$"))
 async def help(event):
-  helptext = "** Reklam & Business : @Rowlyn  **"
+  helptext = "Hər cür Botun Qurulumu Üçün @Rowlyn Yaza Bilərsən👍🏻🖤"
   await event.reply(helptext,
                     buttons=(
                         [
